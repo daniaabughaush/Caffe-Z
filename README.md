@@ -13,3 +13,6 @@ this is the first project that we used java script with
 ## add for loop with arrays
 ## use while loop to make sure the gender is submitted
 
+## 3/20/2023
+
+function and branch task
