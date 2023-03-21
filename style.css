@@ -28,9 +28,23 @@ justify-content: center;
 h1{
     color:rgb(241, 249, 8);
     font-family: cursive;
-    align-self: center;
-    font-weight: bolder;
+    align-self: flex-start;
+    font-weight: bolder;  
+/* align-content: center;} */
+}
+#customerInfo{
+   align-self: center; 
+   color: white;
+   font-family: cursive;
+   font-size: 2rem;
+   background-color: rgba(140, 197, 197,.5);
+}
+#customerInfo p{
+    font-size: 2.3rem;
+    color:goldenrod;
+    /* background-color: aqua; */
+}
+#customerInfo li{
+    list-style: none;
 
-    /* margin-top: 20rem; */
-    
 }
