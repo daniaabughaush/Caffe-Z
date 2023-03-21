@@ -44,15 +44,18 @@ for (let index = 0; index < customerArray.length; index++) {
     console.log(element)
 
 }
-
 let customerInfo=document.getElementById("customerInfo");
 console.log(customerInfo);
+
+let newDiv=document.createElement("div");
+customerInfo.appendChild(newDiv)
+
 let pEl=document.createElement("p");
-customerInfo.appendChild(pEl);
+newDiv.appendChild(pEl);
 pEl.textContent=customer
 
 let ulEl=document.createElement("ul");
-    customerInfo.appendChild(ulEl);
+newDiv.appendChild(ulEl);
 let liEl2=document.createElement("li");
      ulEl.appendChild(liEl2);
      liEl2.textContent="Gender: "+genderLower
