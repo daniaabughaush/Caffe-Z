@@ -36,7 +36,7 @@ h1{
    align-self: center; 
    color: white;
    font-family: cursive;
-   font-size: 2rem;
+   font-size: 1.3rem;
    background-color: rgba(140, 197, 197,.5);
 }
 #customerInfo p{
@@ -46,5 +46,21 @@ h1{
 }
 #customerInfo li{
     list-style: none;
+
+}
+
+table {
+    border: solid brown;
+    border-radius: .7rem;
+    border-spacing:.5rem;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+    
+}
+tr td{
+    border: solid brown;
+    border-radius: .7rem;
+   
 
 }

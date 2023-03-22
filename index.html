@@ -31,13 +31,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Navbar brand -->
         <a class="navbar-brand mt-2 mt-lg-0" href="#">
-          <img
+          <!-- <img
           class="coffee-beans"
             src="images/coffee-beans.png"
             height="15"
             alt="MDB Logo"
             loading="lazy"
-          />
+          /> -->
         </a>
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -112,9 +112,26 @@
     
             <div id="customerInfo">
              
+<form id="form">
+  <label for="">Please tell us your name</label><br>
+  <input type="text"  name="fname" value=""><br>
+  <label for="lname">Your Age</label><br>
+  <input type="text"  name="age" value=""><br><br>
+  <!-- <label for="lname">Your Gender</label><br> -->
+  <!-- <input type="text"  name="gender" value=""><br><br> -->
+  <label for="lname">Your Drink</label><br>
+  <input type="text"  name="drink" value=""><br><br>
+  <input type="checkbox" id="hotcheck" name="hot" value="hot">
+  <label for="hotDrink"> hot </label><br>
+  <input type="checkbox"  name="cold" value="cold">
+  <label for="coldDrink"> cold</label><br>
+  <input type="submit" value="Submit" >
+</form> 
             </div>
         </section>
-        
+        <div id="info">
+
+        </div>
     </main>
     <footer>
 
